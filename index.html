@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RedactProof - Secure Document Redaction</title>
+  <meta name="description" content="Browser-based document redaction with AI-powered PII detection. Your documents never leave your device.">
+  <meta name="keywords" content="redaction, PDF redaction, PII detection, GDPR, document security, privacy">
+  <link rel="canonical" href="https://redactproof.com">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="RedactProof - Secure Document Redaction">
+  <meta property="og:description" content="Browser-based document redaction with AI-powered PII detection. Your documents never leave your device.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://redactproof.github.io">
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #e2e8f0;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 480px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+    .tagline {
+      color: #94a3b8;
+      margin-bottom: 2.5rem;
+      font-size: 1.1rem;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    a {
+      display: block;
+      padding: 1rem 1.5rem;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      color: #e2e8f0;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    a:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-2px);
+    }
+    a .label {
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+    a .desc {
+      color: #94a3b8;
+      font-size: 0.9rem;
+      margin-top: 0.25rem;
+    }
+    .primary {
+      background: #3b82f6;
+      border-color: #3b82f6;
+    }
+    .primary:hover {
+      background: #2563eb;
+      border-color: #2563eb;
+    }
+    footer {
+      margin-top: 3rem;
+      color: #64748b;
+      font-size: 0.85rem;
+    }
+    footer a {
+      display: inline;
+      background: none;
+      border: none;
+      padding: 0;
+      color: #64748b;
+      text-decoration: underline;
+    }
+    footer a:hover {
+      color: #94a3b8;
+      transform: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>RedactProof</h1>
+    <p class="tagline">Secure Document Redaction</p>
+
+    <div class="links">
+      <a href="https://redactproof.com" class="primary">
+        <div class="label">Open RedactProof</div>
+        <div class="desc">Browser-based redaction with AI-powered PII detection</div>
+      </a>
+
+      <a href="https://redactproof.com/verify">
+        <div class="label">Verify a Certificate</div>
+        <div class="desc">Check document integrity using verification.json</div>
+      </a>
+
+      <a href="/public-keys/">
+        <div class="label">Public Keys</div>
+        <div class="desc">Ed25519 keys for independent signature verification</div>
+      </a>
+    </div>
+
+    <footer>
+      <p>Your documents never leave your device.</p>
+    </footer>
+  </div>
+</body>
+</html>
